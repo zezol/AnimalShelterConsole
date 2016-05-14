@@ -6,7 +6,6 @@
 // Description : AnimalShelter
 //============================================================================
 
-#include <iostream>
 #include "Program.h"
 
 int main() {

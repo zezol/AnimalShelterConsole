@@ -31,7 +31,7 @@ void Program::processInput() {
 	do {
 		std::cout << "Your choice: " << std::flush;
 		std::cin >> choice;
-		if (choice < 1 && choice > 4) {
+		if (choice < 1 || choice > 4) {
 			std::cout << "You've entered wrong number!" << std::endl;
 		}
 	} while (choice < 1 && choice > 4);
